@@ -1,5 +1,6 @@
 import html2canvas from "html2canvas";
 
+//https://blog.logrocket.com/export-react-components-as-images-html2canvas/
 const exportAsImage = async (el, imageFileName) => {
   
   const canvas = await html2canvas(el, {
